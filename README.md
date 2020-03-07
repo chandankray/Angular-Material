@@ -1,27 +1,25 @@
-# MaterialDemo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.
+Upload Angular project to GitHub server using the command line
+Now open the command prompt on the root path of your project and follow these steps.
 
-## Development server
+1. git init
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This will create a brand new “.git” folder on the root path of your project. Generally, git commands are not available outside the repository and this folder helps you to run the other git commands at that path.
 
-## Code scaffolding
+2. git add .
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+This will add all the modified and new untracked files to the directories and making them ready for the commit.
 
-## Build
+3. git commit –m “initial commit”
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+This will save all your changes to the local repository and make them ready to push on the remote server. The last part of the command is the commit message, you can replace that with anything descriptive.
 
-## Running unit tests
+4. git remote add origin https://github.com/chandan061184/Angular-Material.git
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+This will link your remote repository with your local directory.
 
-## Running end-to-end tests
+5. git push –u origin master
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+This will push all the changes to the master branch.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+6. git push -f origin master (force)
