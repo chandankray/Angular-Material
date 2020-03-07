@@ -1,6 +1,7 @@
 
 Upload Angular project to GitHub server using the command line
 Now open the command prompt on the root path of your project and follow these steps.
+---------------------------------------------------------------------------------------------------
 
 1. git init
 
@@ -23,3 +24,4 @@ This will link your remote repository with your local directory.
 This will push all the changes to the master branch.
 
 6. git push -f origin master (force)
+---------------------------------------------------------------------------------------------------
