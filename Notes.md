@@ -39,3 +39,8 @@ Material buttons
 <button mat-raised-button>Basic raised</button>
 <button mat-stroked-button>Basic stroked</button>
 <button mat-flat-button>Basic flat</button>
+
+Toggle buttons
+-------------------------------------------------------------------------------------------------------
+<mat-button-toggle #toggleButton disableRipple>Toggle button</mat-button-toggle>
+{{toggleButton.checked}}
