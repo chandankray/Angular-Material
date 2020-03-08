@@ -9,3 +9,26 @@ Add a new module for angular material and separate it from appModule
 ng g m material
 
 now add all the material components into material module and add material module into app module
+
+Typography levels
+-------------------------------------------------------------------------------------------------
+<div class="mat-display-4"> This is display 4</div> 
+<div class="mat-display-3"> This is display 3</div>
+<div class="mat-display-2"> This is display 2</div>
+<div class="mat-display-1"> This is display 1</div>
+
+<div class="mat-headline"> This is headline h1</div>
+<div class="mat-title"> This is title h2</div>
+<div class="mat-subheading-2"> This is subheading 2 h3</div>
+<div class="mat-subheading-1"> This is subheading 1 h4</div>
+
+<div class="mat-body-1"> this is body text</div>
+<div class="mat-body-2"> this is body text in bold</div>
+<div class="mat-captions"> this is captions</div>
+
+<div class="mat-typography">
+<h1>This is a heading for h1</h1>
+<h2>This is a heading for h2</h2>
+<h3>This is a heading for h3</h3>
+<h4>This is a heading for h4</h4>
+</div>
