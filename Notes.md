@@ -32,3 +32,10 @@ Typography levels
 <h3>This is a heading for h3</h3>
 <h4>This is a heading for h4</h4>
 </div>
+
+Material buttons
+-------------------------------------------------------------------------------------------------------
+<button mat-button>Basic</button>
+<button mat-raised-button>Basic raised</button>
+<button mat-stroked-button>Basic stroked</button>
+<button mat-flat-button>Basic flat</button>
