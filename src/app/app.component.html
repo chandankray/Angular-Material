@@ -1,3 +1,13 @@
+<mat-toolbar color="primary" class="navbar">
+  <span>Material app</span>
+  <div>
+    <span>Home</span>
+    <span>About</span>
+    <span>Services</span>
+  </div>
+</mat-toolbar>
+
+
 <mat-slider min="1" max="100" step="1" value="1"></mat-slider>
 <button mat-button>Basic</button>
 <button mat-raised-button>Basic raised</button>
@@ -6,13 +16,9 @@
 
 <mat-button-toggle #toggleButton disableRipple>Toggle button</mat-button-toggle>
 {{toggleButton.checked}}
-  
+
 <mat-grid-list cols="4" rowHeight="100px">
-  <mat-grid-tile
-      *ngFor="let tile of tiles"
-      [colspan]="tile.cols"
-      [rowspan]="tile.rows"
-      [style.background]="tile.color">
+  <mat-grid-tile *ngFor="let tile of tiles" [colspan]="tile.cols" [rowspan]="tile.rows" [style.background]="tile.color">
     {{tile.text}}
   </mat-grid-tile>
 </mat-grid-list>

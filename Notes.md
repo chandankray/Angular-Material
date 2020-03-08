@@ -44,3 +44,28 @@ Toggle buttons
 -------------------------------------------------------------------------------------------------------
 <mat-button-toggle #toggleButton disableRipple>Toggle button</mat-button-toggle>
 {{toggleButton.checked}}
+
+Multi-Cursor Editing
+-------------------------------------------------------------------------------------------------------
+To edit multiple instances of text within different sections of a document, you can use multi-cursor editing. This allows multiple cursors to be placed in different spots so text can be added, modified, or deleted.
+
+To engage multi-cursor editing, press the Alt key (or Option key on a Mac) and use the mouse to place cursors throughout the document. Every click creates a cursor resulting in multiple cursors.
+
+Adding Navbar
+------------------------------------------------------------------------------------------------------
+<mat-toolbar color="primary" class="navbar">
+  <span>Material app</span>
+  <div>
+    <span>Home</span>
+    <span>About</span>
+    <span>Services</span>
+  </div>
+</mat-toolbar>
+
+CSS
+.navbar{
+    justify-content: space-between;
+}
+span{
+    padding-right: 1rem;
+}
