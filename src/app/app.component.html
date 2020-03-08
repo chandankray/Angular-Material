@@ -6,7 +6,15 @@
     <span>Services</span>
   </div>
 </mat-toolbar>
+<div>
 
+  <button mat-raised-button (click)="openDialog()">Open modal</button>
+
+<br />
+<div *ngIf="email">
+  You signed up with: {{email}}
+</div>
+</div>
 
 <mat-slider min="1" max="100" step="1" value="1"></mat-slider>
 <button mat-button>Basic</button>
